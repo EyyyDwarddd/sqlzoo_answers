@@ -35,7 +35,7 @@ Q. Show the name and population for 'Sweden', 'Norway', and 'Denmark'.
 */
 
 SELECT name, population FROM world
-  WHERE name IN ('Sweden', 'Norway', 'Denmark');
+WHERE name IN ('Sweden', 'Norway', 'Denmark');
 
 
 /*
@@ -60,7 +60,7 @@ Modify it to show the country and the area for countries with an area between 20
 */
 
 SELECT name, area FROM world
-  WHERE area BETWEEN 200000 AND 300000
+WHERE area BETWEEN 200000 AND 300000
 
 /*
 Correct answer
